@@ -1,12 +1,7 @@
 {
-  "name": "Mercedes-Benz IT Structurizr Basic Theme",
+  "name": "Structurizr Basic Theme",
   "description": "This theme includes our preferred colours and identifiers for shapes in Structurizr, as well as  icons for both AWS and Azure icons",
   "elements": [
-    {
-      "tag": "Element",
-      "color": "#2d2d2d",
-      "stroke": "#2d2d2d"
-    },
     {
       "tag": "Customer",
       "background": "#9fc5e8",
@@ -23,10 +18,6 @@
       "shape": "Person"
     },
     {
-      "tag": "Software System",
-      "background": "#9fc5e8"
-    },
-    {
       "tag": "HQ System",
       "background": "#9fc5e8",
       "color": "#ffffff"
@@ -37,30 +28,67 @@
       "color": "#ffffff"
     },
     {
-      "tag": "Container",
-      "background": "#08427b"
+      "tag": "Database",
+      "shape": "Cylinder"
     },
     {
-      "tag": "Component",
-      "background": "#ebf6ff"
+      "tag": "File Storage",
+      "shape": "Folder"
+    },
+    {
+      "tag": "Message Bus",
+      "shape": "Pipe"
+    },
+    {
+      "tag": "Microservice Hex",
+      "shape": "Hexagon"
+    },
+    {
+      "tag": "Microservice Layer",
+      "shape": "RoundedBox"
+    },
+    {
+      "tag": "Web Browser",
+      "shape": "WebBrowser"
+    },
+    {
+      "tag": "Mobile App",
+      "shape": "MobileDevicePortrait"
+    },
+    {
+      "tag": "Tablet App",
+      "shape": "MobileDeviceLandscape"
     },
     {
       "tag": "New",
-      "background": "#c7ffef",
-      "color": "#2d2d2d",
       "stroke": "#009E73"
     },
     {
       "tag": "Modified",
-      "background": "#ffe1a1",
-      "color": "#2d2d2d",
       "stroke": "#E69F00"
     },
     {
       "tag": "Removed",
-      "background": "#ff9c8f",
-      "color": "#2d2d2d",
       "stroke": "#D55E00"
+    }
+  ],
+  "relationships":[
+    {
+      "tag": "New",
+      "color": "#009E73"
+    },
+    {
+      "tag": "Modified",
+      "color": "#E69F00"
+    },
+    {
+      "tag": "Removed",
+      "color": "#D55E00"
+    },
+    {
+      "tag": "InfoFlow",
+      "routing": "Curved",
+      "dashed": false
     }
   ]
 }
