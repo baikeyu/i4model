@@ -1,27 +1,66 @@
 {
-  "name" : "Default theme",
-  "elements" : [ {
-    "tag" : "Element",
-    "shape" : "RoundedBox"
-  }, {
-    "tag" : "Software System",
-    "background" : "#1168bd",
-    "color" : "#ffffff"
-  }, {
-    "tag" : "Container",
-    "background" : "#438dd5",
-    "color" : "#ffffff"
-  }, {
-    "tag" : "Component",
-    "background" : "#85bbf0",
-    "color" : "#000000"
-  }, {
-    "tag" : "Person",
-    "background" : "#08427b",
-    "color" : "#ffffff",
-    "shape" : "Person"
-  }, {
-    "tag" : "Infrastructure Node",
-    "background" : "#ffffff"
-  } ]
+  "name": "Mercedes-Benz IT Structurizr Basic Theme",
+  "description": "This theme includes our preferred colours and identifiers for shapes in Structurizr, as well as  icons for both AWS and Azure icons",
+  "elements": [
+    {
+      "tag": "Element",
+      "color": "#2d2d2d",
+      "stroke": "#2d2d2d"
+    },
+    {
+      "tag": "Customer",
+      "background": "#9fc5e8",
+      "shape": "Person"
+    },
+    {
+      "tag": "Dealer",
+      "background": "#999999",
+      "shape": "Person"
+    },
+    {
+      "tag": "OEM User",
+      "background": "#000000",
+      "shape": "Person"
+    },
+    {
+      "tag": "Software System",
+      "background": "#9fc5e8"
+    },
+    {
+      "tag": "HQ System",
+      "background": "#9fc5e8",
+      "color": "#ffffff"
+    },
+    {
+      "tag": "3rd Party System",
+      "background": "#999999",
+      "color": "#ffffff"
+    },
+    {
+      "tag": "Container",
+      "background": "#08427b"
+    },
+    {
+      "tag": "Component",
+      "background": "#ebf6ff"
+    },
+    {
+      "tag": "New",
+      "background": "#c7ffef",
+      "color": "#2d2d2d",
+      "stroke": "#009E73"
+    },
+    {
+      "tag": "Modified",
+      "background": "#ffe1a1",
+      "color": "#2d2d2d",
+      "stroke": "#E69F00"
+    },
+    {
+      "tag": "Removed",
+      "background": "#ff9c8f",
+      "color": "#2d2d2d",
+      "stroke": "#D55E00"
+    }
+  ]
 }
